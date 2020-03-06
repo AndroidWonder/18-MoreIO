@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/18-MoreIO.iml" filepath="$PROJECT_DIR$/18-MoreIO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-MoreIO.iml" filepath="$PROJECT_DIR$/18-MoreIO.iml" group="18-MoreIO" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="18-MoreIO/app" />
     </modules>
   </component>
 </project>
