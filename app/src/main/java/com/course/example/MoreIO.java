@@ -69,21 +69,13 @@ public class MoreIO extends Activity implements OnClickListener {
 			line = edit.getText().toString().trim();
 			Log.i("MoreIO", line);
 			if (!line.equals("")) { // empty string ends loop
-				
-				try {
-					// convert to int. An exception will be thrown if not an int.
+					// convert to int
 					int value = Integer.parseInt(line);
 					out.writeInt(value);
 					text.append(line + " written  \n");
-				} catch (Exception e) {
-					Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG)
-							.show();
-					Log.e("MoreIO", e.getMessage());
-				}
 				edit.setText("");
 				return;
 			}
-			;
 
 			// end of input
 			int byteNum = out.size(); // get number of bytes written
